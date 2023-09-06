@@ -1,0 +1,17 @@
+{
+  "name": "postcss-codemod-for-converting-physical-css-properties-to-logical-css-properties",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "physical-to-logical": "npx postcss './scss/components/*.scss' --config ./plugins/postcss.config.js --replace --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  }
+}
